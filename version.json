@@ -1,6 +1,13 @@
 {
-  "version": "3.5.0",
+  "version": "3.6.0",
   "gameUrl": "https://raw.githubusercontent.com/thmllw/bonk-updates/main/index.html",
-  "sha256": "",
-  "notes": ["Familiers retravaillés", "Divin critique"]
+  "sha256": "4ddd2759c885f2fe8f86cbc1eb75cb8897a38fab110cc083265180a61314c595",
+  "notes": [
+    "🌋 Nouveau monde : le Royaume de Braise (volcan) avec son boss Ignaros et ses ennemis de feu",
+    "🏠 Nouvel accueil : boutons à gauche, deux monstres en pose à droite, bouton ✖ pour fermer les fenêtres",
+    "⚔️ 6 nouvelles armes : loups spectraux, nuage d’orage, canon de précision, onde glaciale, mur de flammes, tourelle",
+    "🎲 Nouveaux bonus : Dé du chaos, Affûtage, Gâchette, Frénésie, Épines et plus",
+    "🏜️ Mer de Sable enrichie, mobs adaptés à chaque décor, passe de combat à la molette",
+    "⚖️ Bonus additifs, raretés plus marquées, drops de méga/cosmique réduits"
+  ]
 }
