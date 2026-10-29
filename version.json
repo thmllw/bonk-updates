@@ -1,5 +1,5 @@
 {
-  "version": "2.9.0",
+  const VERSION_URL = 'https://raw.githubusercontent.com/TON_PSEUDO/bonk-updates/main/version.json';
   "gameUrl": "https://raw.githubusercontent.com/thmllw/bonk-updates/main/index.html",
   "sha256": "",
   "notes": ["Familiers retravaillés", "Divin critique"]
