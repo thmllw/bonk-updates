@@ -1,13 +1,12 @@
 {
-  "version": "2026.10.30.7",
+  "version": "2026.10.30.16",
   "gameUrl": "https://raw.githubusercontent.com/thmllw/bonk-updates/main/index.html",
-  "sha256": "60b0bcf808794bb9f5a26483ed83a88885d622e350061c094b5ed2877f62dbfa",
+  "sha256": "6e4d1ffb1cbb07b054734c6ddf56a7101a994fc13388cc29f417b03fb7bf8f91",
   "notes": [
-    "🌙 6 nouveaux monstres : Sélénia, Chromo, Mimix, Katanox, Abyssia et Citrouix (Halloween)",
-    "🦅 Faucor change complètement d’apparence",
-    "🎃 Nouvel onglet Event Halloween dans les invocations",
-    "2 nouvelles armes (Singularité, Raz-de-marée) et 6 nouveaux familiers",
-    "Fouet, mur de flammes, drones, mines, arc, prisme, canon et cyclone bien plus puissants",
-    "Épines, Affûtage et Chargeur signature modifiés · ultime de Mécanyx boosté"
+    "🏃 Déplacement unique pour chaque monstre avec sa traînée de particules",
+    "🧊 Cubix : cubes colorés (plus de cubes gris), culbute et couches qui tournent plus vite en marche",
+    "🎁 Nouveau code cadeau",
+    "🎆 Animation d’ultime unique pour chacun des 31 monstres",
+    "💥 Chaque ultime a sa cinématique : sceau, colonne de lumière, dôme, spirale et éclats propres à son élément"
   ]
 }
