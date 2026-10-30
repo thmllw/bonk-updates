@@ -1,0 +1,13 @@
+{
+  "version": "2026.10.30.28",
+  "gameUrl": "https://raw.githubusercontent.com/thmllw/bonk-updates/main/index.html",
+  "sha256": "81426932be1a06b50e38909cb95e5804068d46547db3c9a509cc7a9a98e28f7a",
+  "notes": [
+    "Nouvel écran de maintenance contrôlable à distance",
+    "Déconnexion automatique des joueurs pendant la maintenance"
+  ],
+  "maintenance": {
+    "on": false,
+    "msg": "Maintenance en cours, retour vers 14h"
+  }
+}
