@@ -1,12 +1,11 @@
 {
-  "version": "2026.10.30.16",
+  "version": "2026.10.30.17",
   "gameUrl": "https://raw.githubusercontent.com/thmllw/bonk-updates/main/index.html",
-  "sha256": "6e4d1ffb1cbb07b054734c6ddf56a7101a994fc13388cc29f417b03fb7bf8f91",
+  "sha256": "e25d65404cd61a2c293dfcd784a9d6fe0da24383b505a0eb2d7c15ebbb0164fb",
   "notes": [
+    "🛒 Altego retiré de la boutique",
     "🏃 Déplacement unique pour chaque monstre avec sa traînée de particules",
     "🧊 Cubix : cubes colorés (plus de cubes gris), culbute et couches qui tournent plus vite en marche",
-    "🎁 Nouveau code cadeau",
-    "🎆 Animation d’ultime unique pour chacun des 31 monstres",
-    "💥 Chaque ultime a sa cinématique : sceau, colonne de lumière, dôme, spirale et éclats propres à son élément"
+    "🎁 Nouveau code cadeau"
   ]
 }
