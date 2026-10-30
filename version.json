@@ -1,13 +1,13 @@
 {
-  "version": "2026.10.29",
+  "version": "2026.10.30.7",
   "gameUrl": "https://raw.githubusercontent.com/thmllw/bonk-updates/main/index.html",
-  "sha256": "4ddd2759c885f2fe8f86cbc1eb75cb8897a38fab110cc083265180a61314c595",
+  "sha256": "60b0bcf808794bb9f5a26483ed83a88885d622e350061c094b5ed2877f62dbfa",
   "notes": [
-    "🌋 Nouveau monde : le Royaume de Braise (volcan) avec son boss Ignaros et ses ennemis de feu",
-    "🏠 Nouvel accueil : boutons à gauche, deux monstres en pose à droite, bouton ✖ pour fermer les fenêtres",
-    "⚔️ 6 nouvelles armes : loups spectraux, nuage d’orage, canon de précision, onde glaciale, mur de flammes, tourelle",
-    "🎲 Nouveaux bonus : Dé du chaos, Affûtage, Gâchette, Frénésie, Épines et plus",
-    "🏜️ Mer de Sable enrichie, mobs adaptés à chaque décor, passe de combat à la molette",
-    "⚖️ Bonus additifs, raretés plus marquées, drops de méga/cosmique réduits"
+    "🌙 6 nouveaux monstres : Sélénia, Chromo, Mimix, Katanox, Abyssia et Citrouix (Halloween)",
+    "🦅 Faucor change complètement d’apparence",
+    "🎃 Nouvel onglet Event Halloween dans les invocations",
+    "2 nouvelles armes (Singularité, Raz-de-marée) et 6 nouveaux familiers",
+    "Fouet, mur de flammes, drones, mines, arc, prisme, canon et cyclone bien plus puissants",
+    "Épines, Affûtage et Chargeur signature modifiés · ultime de Mécanyx boosté"
   ]
 }
