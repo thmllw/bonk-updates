@@ -1,11 +1,8 @@
 {
-  "version": "2026.10.30.18",
+  "version": "2026.10.30.22",
   "gameUrl": "https://raw.githubusercontent.com/thmllw/bonk-updates/main/index.html",
-  "sha256": "0ce85cbab45e70a664a5c05037536f275d2b47c944ad9bc193b69dab0e09d0d6",
+  "sha256": "e59ee310cbf6c1fbe5894bf1f5bc8aca031410f5afb3add1155c8498abc71c77",
   "notes": [
-    "📍 Monstre de la sélection replacé plus haut et à droite",
-    "🛒 Altego retiré de la boutique",
-    "🏃 Déplacement unique pour chaque monstre avec sa traînée de particules",
-    "🧊 Cubix : cubes colorés (plus de cubes gris), culbute et couches qui tournent plus vite en marche"
+    "🟡 HUD : barre de vie, boss et danger passent au jaune/orange du bouton Jouer"
   ]
 }
