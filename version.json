@@ -1,0 +1,12 @@
+{
+  "version": "2026.10.30.57",
+  "gameUrl": "https://raw.githubusercontent.com/thmllw/bonk-updates/main/index.html",
+  "sha256": "954bf65fb3ed3a109d7c78663d3d6864e1728bf2f76bedd8048d64650717825b",
+  "notes": [
+    "Choix du niveau : boutons Speedrun / Vagues infinies retirés (le mode se choisit sur l’écran des modes)"
+  ],
+  "maintenance": {
+    "on": false,
+    "msg": "Maintenance en cours, retour vers 14h"
+  }
+}
