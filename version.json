@@ -1,8 +1,9 @@
 {
-  "version": "2026.10.30.22",
+  "version": "2026.10.30.23",
   "gameUrl": "https://raw.githubusercontent.com/thmllw/bonk-updates/main/index.html",
-  "sha256": "e59ee310cbf6c1fbe5894bf1f5bc8aca031410f5afb3add1155c8498abc71c77",
+  "sha256": "df7a34b3e2d4c91a6b2e8246b3a075f6710a6287ef80c6a47ccb8290316679bc",
   "notes": [
-    "🟡 HUD : barre de vie, boss et danger passent au jaune/orange du bouton Jouer"
+    "🟡 Menus (sélection, boutons, stats, onglets) passent au jaune du bouton Jouer",
+    "❤️ HUD en jeu : retour aux couleurs rouges d'avant"
   ]
 }
