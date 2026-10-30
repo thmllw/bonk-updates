@@ -10,7 +10,7 @@
     "Sélection : bouton pour masquer/afficher les stats, avec zoom sur le monstre ou le familier"
   ],
   "maintenance": {
-    "on": true,
+    "on": false,
     "msg": "Maintenance en cours, retour vers 14h"
   }
 }
