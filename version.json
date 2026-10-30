@@ -1,13 +1,9 @@
 {
-  "version": "2026.10.30.38",
+  "version": "2026.10.30.47",
   "gameUrl": "https://raw.githubusercontent.com/thmllw/bonk-updates/main/index.html",
-  "sha256": "3ba7a5b4ae85fcdc76ce54504f786b8809ff2a8e257cd432b3e519cdb86347e5",
+  "sha256": "092574d135d2d1a004a5accc91f4b71784ffba0cc8842a126b768314032c1c9c",
   "notes": [
-    "Toutes les icônes de monstres refaites : dégradés, reflets, yeux brillants et accessoires",
-    "Sélection des monstres : deux onglets Gen 1 et Gen 2 sous les filtres",
-    "SEASON 2 : CURSE OF THE DEEP",
-    "GEN2 MONSTERS",
-    "ENGLISH TRANSLATE"
+    "Divers ajustements et corrections"
   ],
   "maintenance": {
     "on": false,
