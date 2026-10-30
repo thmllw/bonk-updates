@@ -1,0 +1,14 @@
+{
+ "version": "2026.10.31.23",
+ "gameUrl": "https://raw.githubusercontent.com/thmllw/bonk-updates/main/index.html",
+ "sha256": "f09a0530dcde88cb4c8d500b83c1337152b12a30a531a34a5cefc47b2209ceaa",
+ "notes": [
+  "Menu : Invocation + Fusion = BonkLabo, bouton Objets retiré",
+  "Raid : bonus de vague (Balayage, Bonk) supprimés",
+  "Skins refaits (suivent les animations) + 6 skins Sablor/Tempora"
+ ],
+ "maintenance": {
+  "on": false,
+  "msg": "Maintenance en cours, retour vers 14h"
+ }
+}
