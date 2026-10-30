@@ -1,13 +1,16 @@
 {
-  "version": "2026.10.30.28",
+  "version": "2026.10.30.38",
   "gameUrl": "https://raw.githubusercontent.com/thmllw/bonk-updates/main/index.html",
-  "sha256": "81426932be1a06b50e38909cb95e5804068d46547db3c9a509cc7a9a98e28f7a",
+  "sha256": "3ba7a5b4ae85fcdc76ce54504f786b8809ff2a8e257cd432b3e519cdb86347e5",
   "notes": [
-    "Nouvel écran de maintenance contrôlable à distance",
-    "Déconnexion automatique des joueurs pendant la maintenance"
+    "Toutes les icônes de monstres refaites : dégradés, reflets, yeux brillants et accessoires",
+    "Les nouveaux monstres pirates ont maintenant leur propre icône (chapeaux, bandeaux, boussole…)",
+    "Même icônes dans les avatars de profil",
+    "Sélection des monstres : deux onglets Gen 1 et Gen 2 sous les filtres",
+    "Sélection : bouton pour masquer/afficher les stats, avec zoom sur le monstre ou le familier"
   ],
   "maintenance": {
-    "on": false,
+    "on": true,
     "msg": "Maintenance en cours, retour vers 14h"
   }
 }
