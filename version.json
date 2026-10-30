@@ -1,0 +1,14 @@
+{
+ "version": "2026.10.31.26",
+ "gameUrl": "https://raw.githubusercontent.com/thmllw/bonk-updates/main/index.html",
+ "sha256": "ec59baed5360b2dd8a3c29a61fb87f63590a28ac76fe81bf6c6b6e1ac1d6b235",
+ "notes": [
+  "Jouer : nouvel écran de choix Solo / Co-op (Co-op bientôt) avant Monstre > Mode > Objets",
+  "Correctif skins Corvéa, skins Argent/Or refaits",
+  "Menu BonkLabo, bonus de vague retirés"
+ ],
+ "maintenance": {
+  "on": false,
+  "msg": "Maintenance en cours, retour vers 14h"
+ }
+}
