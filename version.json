@@ -1,0 +1,12 @@
+{
+  "version": "2026.10.30.55",
+  "gameUrl": "https://raw.githubusercontent.com/thmllw/bonk-updates/main/index.html",
+  "sha256": "2202405b361cfae6d7f786409ae753b9705b55a9b47b37a2aa7b7a78a06ca579",
+  "notes": [
+    "Nouveau bouton « Classé » (verrouillé) dans le choix des modes : bientôt disponible"
+  ],
+  "maintenance": {
+    "on": false,
+    "msg": "Maintenance en cours, retour vers 14h"
+  }
+}
