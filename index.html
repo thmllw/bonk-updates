@@ -592,6 +592,7 @@ const cs=i=>SAVE.ch[CH[i].id]||(SAVE.ch[CH[i].id]={xp:0,lv:0,pr:0});
 const LL={
  gameKey:'dev_c0db0ab63c04410092bfa0c6d066fc92',            // <-- colle ici ta "Game Key" LootLocker (Settings > API Keys)
  leaderboard:'bonk_monsters',        // <-- colle ici la "Leaderboard Key" (ex. 'bonk_monsters')
+ domainKey:'gdrpqawi',          // <-- colle ici ta "Domain Key" LootLocker (Settings > Game, rubrique Domain Key) : obligatoire pour créer un compte / se connecter
  version:'1.0.0',
  dev:true,              // true = clé de développement (mets false pour la prod sur itch.io)
  api:'https://api.lootlocker.io',
@@ -599,7 +600,7 @@ const LL={
 const llOn=()=>!!(LL.gameKey&&LL.leaderboard&&typeof fetch==='function');
 if(!SAVE.uid)SAVE.uid='bm-'+Math.random().toString(36).slice(2)+Date.now().toString(36);
 async function llReq(method,path,body,auth){
- const h={'Content-Type':'application/json'};if(auth)h['x-session-token']=LL.token;
+ const h={'Content-Type':'application/json'};if(auth)h['x-session-token']=LL.token;if(path.indexOf('/white-label-login')===0){if(!LL.domainKey)throw new Error('Clé de domaine LootLocker manquante (LL.domainKey)');h['domain-key']=LL.domainKey;h['is-development']=String(!!LL.dev)}
  if(LL.off>Date.now())throw new Error('réseau bloqué');let r;try{r=await fetch(LL.api+path,{method,headers:h,body:body?JSON.stringify(body):undefined})}catch(e){LL.off=Date.now()+120000;console.warn('LootLocker injoignable (classement mondial hors ligne)');throw new Error('réseau bloqué')}
  if(!r.ok){if(r.status===401||r.status===403)LL.token=null;let tx='';try{tx=(await r.text()).slice(0,120)}catch(e){}console.warn('LootLocker',r.status,tx);throw new Error('HTTP '+r.status+(tx?' '+tx:''))}
  return r.json()}
@@ -4795,7 +4796,7 @@ for(let i=0;i<items.length;i+=15)await llReq('POST','/game/player/storage',{payl
 async function accPull(){const{m,map}=await accMeta();if(!m)throw new Error('aucune sauvegarde cloud');let s='';for(let i=0;i<m.n;i++){if(map['bm_'+i]===undefined)throw new Error('sauvegarde cloud incomplète');s+=map['bm_'+i]}const obj=JSON.parse(await accUnpack(s,m.c));if(!obj||typeof obj!=='object')throw new Error('sauvegarde illisible');const acc=SAVE.acc;for(const k of Object.keys(SAVE))delete SAVE[k];Object.assign(SAVE,obj);acc.sync=Date.now();SAVE.acc=acc;save()}
 function accAuto(){if(!accOn()||SAVE.accAuto===false||accBusy||Date.now()-(SAVE.acc.sync||0)<60000)return;accBusy=true;accPush().catch(()=>{}).finally(()=>{accBusy=false})}
 let accBusy=false,accTab='in';
-const accErr=e=>{const m=String((e&&e.message)||e);return/réseau/.test(m)?'Réseau bloqué ou serveur injoignable.':/HTTP 4(0[0-3]|22)/.test(m)?'Identifiants refusés ou compte non valide ('+m.replace(/^Error: /,'').slice(0,90)+').':m.slice(0,140)};
+const accErr=e=>{const m=String((e&&e.message)||e);return/Clé de domaine/.test(m)?'Création de compte indisponible : clé de domaine LootLocker non configurée.':/réseau/.test(m)?'Réseau bloqué ou serveur injoignable.':/HTTP 4(0[0-3]|22)/.test(m)?'Identifiants refusés ou compte non valide ('+m.replace(/^Error: /,'').slice(0,90)+').':m.slice(0,140)};
 function screenAccount(){mode='menu';hud.style.display='none';const lg=accOn(),sy=lg&&SAVE.acc.sync?new Date(SAVE.acc.sync).toLocaleString('fr-FR',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'}):null,up=accTab==='up';
 const fld=(id,ic,lab,type,ph,ac,eye)=>'<label class=acF><span class=acL>'+lab+'</span><span class=acI><i>'+ic+'</i><input id='+id+' type='+type+' autocomplete="'+ac+'" placeholder="'+ph+'" spellcheck=false>'+(eye?'<button type=button class=acEye data-eye="'+id+'" tabindex=-1 title="Afficher / masquer">👁</button>':'')+'</span></label>';
 const perks='<div class=acPerks><span>☁️ Sauvegarde cloud</span><span>📱 Tous tes appareils</span><span>🔒 Mot de passe jamais stocké</span></div>';
