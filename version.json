@@ -1,9 +1,9 @@
 {
-  "version": "2026.10.30.47",
+  "version": "2026.10.30.49",
   "gameUrl": "https://raw.githubusercontent.com/thmllw/bonk-updates/main/index.html",
-  "sha256": "092574d135d2d1a004a5accc91f4b71784ffba0cc8842a126b768314032c1c9c",
+  "sha256": "e62ea3f26007c154cfa3b99391a500b32bfc7a6151cc79e1a30cf467cdbcd48b",
   "notes": [
-    "Divers ajustements et corrections"
+    "Comptes cloud : la création de compte et la connexion fonctionnent de nouveau"
   ],
   "maintenance": {
     "on": false,
