@@ -1,0 +1,14 @@
+{
+ "version": "2026.10.31.24",
+ "gameUrl": "https://raw.githubusercontent.com/thmllw/bonk-updates/main/index.html",
+ "sha256": "cfdb461ec0afca6bc553c10ff8bc365c28f71a311eb4a7a1c7df3f3faa948df0",
+ "notes": [
+  "Skins Argent/Or massif refaits avec plein de détails",
+  "Projectiles et ultime en argent/or massif avec ces skins",
+  "Correctif skin Corvéa, menu BonkLabo, bonus de vague retirés"
+ ],
+ "maintenance": {
+  "on": false,
+  "msg": "Maintenance en cours, retour vers 14h"
+ }
+}
