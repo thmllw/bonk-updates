@@ -1,0 +1,12 @@
+{
+ "version": "2026.10.31.60",
+ "gameUrl": "https://raw.githubusercontent.com/thmllw/bonk-updates/main/index.html",
+ "sha256": "b0fe3eaf469041a27465822c597f7872a2dcd43f1da08ea9af3cd61918818ee4",
+ "notes": [
+  "Visage de Cafetius sans plaque noire"
+ ],
+ "maintenance": {
+  "on": false,
+  "msg": "Maintenance en cours, retour vers 14h"
+ }
+}
