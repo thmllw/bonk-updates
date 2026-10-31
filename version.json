@@ -1,0 +1,17 @@
+{
+ "version": "2026.10.31.34",
+ "gameUrl": "https://raw.githubusercontent.com/thmllw/bonk-updates/main/index.html",
+ "sha256": "a52893da7c39d56542531bf24cd027391a95ffe940237e2935af4bab183eca32",
+ "notes": [
+  "Patch 8.5 : 16 nouveaux boss uniques dans la Tour du Chaos, méga-boss avec boosts aléatoires",
+  "Boss rééquilibrés (plus faciles au début, plus durs ensuite), vagues de sbires, morts spectaculaires",
+  "Tour : malus, XP, fragments, pierres du Chaos, autel du Chaos refait",
+  "Équilibrage : Tueur de géants, Écho d’ultime, geyser, onde glaciale, familiers, Rhumbaldo",
+  "Statistiques : onglet boss et dégâts par monstre",
+  "Corrections : boomerang, Frénésie, ennemis hors carte, lobby co-op"
+ ],
+ "maintenance": {
+  "on": false,
+  "msg": "Maintenance en cours, retour vers 14h"
+ }
+}
