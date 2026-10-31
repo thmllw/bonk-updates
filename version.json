@@ -1,0 +1,14 @@
+{
+ "version": "2026.10.31.28",
+ "gameUrl": "https://raw.githubusercontent.com/thmllw/bonk-updates/main/index.html",
+ "sha256": "0a8c0ffd02b6177651dc993c120f8f355c98f731376024197ac3d36a391e9c5c",
+ "notes": [
+  "Tour : fragments ÷9, améliorations ×4, Pierres du Chaos et Cristaux primordiaux, 8 nouvelles améliorations",
+  "Autel du Chaos tous les 20 étages avec boosts CHAOTIQUES · Forge du Chaos (1/200 000)",
+  "Boss intouchables pendant leur apparition"
+ ],
+ "maintenance": {
+  "on": false,
+  "msg": "Maintenance en cours, retour vers 14h"
+ }
+}
