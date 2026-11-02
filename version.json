@@ -1,0 +1,16 @@
+{
+ "version": "2026.11.02.61",
+ "gameUrl": "https://raw.githubusercontent.com/thmllw/bonk-updates/main/index.html",
+ "sha256": "902c1b07dac15f513bd912f29e01940602c2ec868543cbb165446b8a94ecc48c",
+ "notes": [
+  "Patch 15 : phénix refait, attaques et sbires des boss, 20 cartes",
+  "Récompenses Raid (24 paliers) et Tour (tous les 5 étages)",
+  "Classements refaits (un passage par joueur, onglets K.O./Speedrun/Raid/Tour)",
+  "Ryoken : ultimes refaits, second souffle en bouclier",
+  "Équilibrage : esquive max 60 %, pactes du chaos plus rares, corrections de bugs et FPS"
+ ],
+ "maintenance": {
+  "on": false,
+  "msg": "Maintenance en cours, retour vers 14h"
+ }
+}
